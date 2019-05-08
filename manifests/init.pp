@@ -1,4 +1,4 @@
-class setworkgroup ($factname, $value) {
+class brisbane-setworkgroup ($factname, $value) {
   tag("kickstart") 
 
   ensure_resource ( 'file', '/etc/facter/', {
